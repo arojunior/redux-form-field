@@ -1,5 +1,5 @@
 {
-  "name": "redux-form-field",
+  "name": "redux-form-field-wrapper",
   "version": "1.0.0",
   "description": "Redux-form fields wrapper",
   "license": "MIT",

@@ -1,9 +1,15 @@
 # Redux-form Field Renderer
 
+### Install
+```shell
+npm install redux-form-field-wrapper
+```
+
+### Use
 ```javascript
 import React from 'react'
 import {Field, reduxForm} from 'redux-form'
-import renderField from 'redux-form-field'
+import renderField from 'redux-form-field-wrapper'
 
 const defaultConfig = {
   divClass: 'form-group',
@@ -90,7 +96,7 @@ export default reduxForm({
 ### Need something easier?
 
 ```javascript
-import renderField, {email} from 'redux-form-field'
+import renderField, {email} from 'redux-form-field-wrapper'
 
 // ...Code
 <Field
