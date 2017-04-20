@@ -2,10 +2,10 @@
 
 ### Install
 ```shell
-npm install redux-form-field-wrapper
+npm install redux-form-field-wrapper --save
 ```
 
-### Use
+### Usage
 ```javascript
 import React from 'react'
 import {Field, reduxForm} from 'redux-form'
